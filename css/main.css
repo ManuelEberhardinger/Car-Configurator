@@ -1,0 +1,76 @@
+body {
+  background-color: white; }
+
+h1 {
+  text-align: center; }
+
+header {
+  width: 100%;
+  color: black; }
+
+footer {
+  clear: both;
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid black;
+  color: black; }
+  footer small {
+    float: left; }
+
+@media only screen and (min-width: 500px) {
+  #left {
+    float: left;
+    width: 48%; }
+  #right {
+    float: right;
+    width: 48%; } }
+
+.one-checking-box {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 3px; }
+
+label {
+  padding: 3px;
+  margin: 3px;
+  display: block; }
+
+#price-label {
+  display: inline;
+  float: left;
+  width: 48%;
+  border: 1px solid black;
+  padding: 5px;
+  min-height: 18; }
+
+button {
+  width: 46%;
+  padding: 6px;
+  margin: 3px; }
+
+#price-button {
+  background-color: darkblue;
+  color: white; }
+
+img {
+  width: 100%; }
+
+/* font configurations */
+@font-face {
+  font-family: Ubuntu Regular;
+  src: url("../fonts/Ubuntu-R.ttf"); }
+
+#title, p {
+  color: black;
+  font-family: "Ubuntu Regular"; }
+
+body {
+  font-family: "Ubuntu Regular"; }
+
+.blue-background {
+  background-color: dodgerblue;
+  color: white;
+  padding: 5px;
+  font-size: 20px; }
+
+/*# sourceMappingURL=main.css.map */

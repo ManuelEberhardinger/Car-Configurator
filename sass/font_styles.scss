@@ -1,0 +1,25 @@
+/* font configurations */
+@font-face {
+    font-family: Ubuntu Regular;
+    src: url("../fonts/Ubuntu-R.ttf"); 
+}
+
+#title {
+    color: black;
+    font-family: "Ubuntu Regular";
+}
+
+p {
+    @extend #title;
+}
+
+body {
+    font-family: "Ubuntu Regular";
+}
+
+.blue-background {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}

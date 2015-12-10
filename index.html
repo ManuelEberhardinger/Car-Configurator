@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <title>BMW Fahrzeugkonfigurator</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js" type="text/javascript"></script>
+    <script src="js/Controller.js"></script>
+    <script src="js/Items.js"></script>
+</head>
+
+<body onload="init()">
+    <h1 id="title">BMW Fahrzeugkonfigurator</h1>
+
+    <div id="right">
+        <fieldset class="one-checking-box">
+            <label class="blue-background">Preis</label>
+            <label id="price-label"></label>
+            <button id="price-button">Gesamtpreis berechnen</button>
+        </fieldset>
+        
+        <fieldset class="one-checking-box">
+            <label class="blue-background">Konfiguration</label>
+            <button id="load-button">Laden</button>
+            <button id="save-button">Speichern</button>
+        </fieldset>
+    </div>
+
+    <div id="left">
+
+        <fieldset class="one-checking-box" id="all-motors">
+            <label class="blue-background">Motoren</label>
+        </fieldset>
+
+        <fieldset class="one-checking-box" id="all-models">
+            <label class="blue-background">Modellvarianten</label>
+        </fieldset>
+
+        <fieldset class="one-checking-box" id="all-packages">
+            <label class="blue-background">Pakete & Editionen</label>
+        </fieldset>
+
+        <fieldset class="one-checking-box" id="all-colors">
+            <label class="blue-background">Farben</label>
+            <img id="car-image"/>
+        </fieldset>
+
+    </div>
+</body>
+
+<footer>
+    <small>
+      Der erste Leistungsnachweis im Kurs Medieninformatik erstellt von Manuel Eberhardinger.
+  </small>
+</footer>
